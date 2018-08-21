@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mybtn {
+  background: #5ac5e2;
+  color: black;
+  border: none;
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  width: 15%;
+}
+
+.myinput {
+  padding: 8px;
+  width: 80%;
+}
+
+.user-div {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 8px;
+  height: 500px;
+}
+
+.user-section {
+  width: 100%;
+}
+
+.filter-div {
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+}
+.submitlink-div, .postlist-div {
+  padding: 8px;
+}
+
+.link {
+  margin: 0 16px;
+  cursor: pointer;
+  padding: 4px;
+  color: #5ac5e2;
+}
+
+.link.active {
+  background-color: #5ac5e2;;
+  color: white;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+}
+
+.post-text {
+  font-size: 18px;
+}
+
+.post-author {
+  font-size: 11px;
+}
+
+.post-list {
+  padding: 0;
+  list-style-type: none;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.post-vote {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+}
+
+.thumbs-btn {
+  font-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.like {
+  color: green;
+}
+
+.unlike {
+  color: red;
+}
+
+.like-counter {
+  padding: 8px;
+}
