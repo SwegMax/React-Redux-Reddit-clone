@@ -1,5 +1,5 @@
 # react-redux-reddit
-A small project integrating react + redux with reddit as a subset functionality for the GastroGraph assignment. 
+A small project integrating react + redux with reddit as a subset functionality.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
